@@ -1,0 +1,7 @@
+{% extends 'navbar.html' %} {% load static %}
+
+{% block content %}
+  <h1>Temperature and Humidity Plot</h1>
+  <!-- <img src="{{ plot_filename }}" alt="Temperature and Humidity Plot"> -->
+  <img src="{%static 'images\temperature_humidity_plot.png'%}" alt="Temperature and Humidity Plot"   />
+{% endblock %}
